@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    background-color: rgb(255, 255, 221);
+    line-height: 1;
+}
+.container {
+    width: 80%;
+    overflow: hidden;
+    line-height: 1.5;
+    margin: auto;
+}
+#showcase .container
+{
+    line-height: 50px;
+}
+header {
+    background: #807cc2;
+    color:#ffffff;
+    min-height: 70px;
+    border-bottom: 4px solid black; 
+      
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+header li{
+    float: left;
+    padding: 0 20px 0 20px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(6, 1, 51);   
+}
+header #branding 
+{ float: left;
+font-size: 16px;}
+
+
+header nav
+{ float: right;
+  margin-top: 20px;
+}
+header .highlight, header .active a
+{
+    color:rgb(3, 1, 1);
+    font-weight: bold;
+ }
+ header a :hover
+  { color: gold;  }
+  /* Showcase
+  section*/
+  #showcase
+   { background: url('ugimg.jpg') no-repeat 0 -150px;
+    min-height: 400px;
+    height: 592px;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+text-align: center;
+color:white;
+ }
+ #showcase h1 { font-size: 55px;
+}
+#showcase p { font-size: 20px;
+}
+
+#boxes 
+{
+    margin-top: 20px;
+}
+#boxes .box
+{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#boxes .box img {
+    width: 90px;
+    height: 90px;
+}
+footer 
+{
+    background: #2B286F;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer img
+{
+    width: 40px;
+    height: 40px;
+}
+
+ 
+
